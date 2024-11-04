@@ -1,4 +1,4 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion newly-edit-navbar" id="customSidebar">
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion newly-edit-navbar" id="accordionSidebar">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('admin.dashboard') }}">

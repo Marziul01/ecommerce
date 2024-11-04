@@ -151,10 +151,10 @@
 </script>
 
 <script>
-    document.getElementById("toggleSidebarButton").addEventListener("click", function () {
-    const sidebar = document.getElementById("customSidebar");
-    sidebar.classList.toggle("show-sidebar"); // Toggle the custom show class
-    console.log("Toggled show-sidebar class:", sidebar.classList.contains("show-sidebar"));
+    document.getElementById("sidebarToggleTop").addEventListener("click", function () {
+    const sidebarii = document.getElementById("accordionSidebar");
+    sidebarii.classList.toggle("show-sidebar"); // Toggle the custom show class
+    console.log("Toggled show-sidebar class:", sidebarii.classList.contains("show-sidebar"));
 });
 </script>
 

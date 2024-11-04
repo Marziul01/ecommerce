@@ -230,7 +230,7 @@ background-position: 0 0;
         z-index: 99;
         width: 0 !important;
     }
-    .navbar-nav.newly-edit-navbar.sidebar.toggled {
+    .navbar-nav.newly-edit-navbar.sidebar.show-sidebar {
         width: 12.5rem !important;
     }
     
@@ -251,8 +251,5 @@ background-position: 0 0;
     .dash-rows-fix, .dash-rows-fix .col-md-4{
         margin-right: 0 !important;
         padding-right: 0px !important;
-    }
-    .navbar-nav.newly-edit-navbar.show-sidebar {
-        width: 12.5rem !important;
     }
 }
