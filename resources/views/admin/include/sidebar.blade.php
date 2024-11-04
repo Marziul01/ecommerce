@@ -144,3 +144,10 @@
 
 
 </ul>
+
+<script>
+    document.getElementById("sidebarToggleTop").addEventListener("click", function () {
+        const sidebar = document.getElementById("accordionSidebar");
+        sidebar.classList.toggle("d-none"); // Toggle the display class
+    });
+</script>
