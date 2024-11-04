@@ -252,4 +252,7 @@ background-position: 0 0;
         margin-right: 0 !important;
         padding-right: 0px !important;
     }
+    .navbar-nav.newly-edit-navbar.show-sidebar {
+        width: 12.5rem !important;
+    }
 }

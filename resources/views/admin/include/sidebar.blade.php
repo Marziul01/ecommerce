@@ -1,4 +1,4 @@
-<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion newly-edit-navbar" id="accordionSidebar">
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion newly-edit-navbar" id="customSidebar">
 
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('admin.dashboard') }}">
@@ -145,9 +145,3 @@
 
 </ul>
 
-<script>
-    document.getElementById("sidebarToggleTop").addEventListener("click", function () {
-        const sidebar = document.getElementById("accordionSidebar");
-        sidebar.classList.toggle("d-none"); // Toggle the display class
-    });
-</script>

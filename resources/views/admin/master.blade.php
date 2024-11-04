@@ -150,6 +150,14 @@
     });
 </script>
 
+<script>
+    document.getElementById("toggleSidebarButton").addEventListener("click", function () {
+    const sidebar = document.getElementById("customSidebar");
+    sidebar.classList.toggle("show-sidebar"); // Toggle the custom show class
+    console.log("Toggled show-sidebar class:", sidebar.classList.contains("show-sidebar"));
+});
+</script>
+
 @yield('customjs')
 </body>
 
